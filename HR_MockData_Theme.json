@@ -1,0 +1,1036 @@
+{
+    "name": "HR Analytics_Mock Theme",
+    "$schema": "reportThemeSchema-2.114.json",
+    "dataColors": [
+        "#0E2841",
+        "#4D93D9",
+        "#7E350E",
+        "#F7C7AC",
+        "#0E2841",
+        "#E97132",
+        "#7E350E",
+        "#0E2841",
+        "#0E2841",
+        "#A6C9EC",
+        "#222325",
+        "#7E350E"
+    ],
+    "good": "#F7C7AC",
+    "neutral": "#E97132",
+    "bad": "#7E350E",
+    "maximum": "#0E2841",
+    "center": "#4D93D9",
+    "minimum": "#A6C9EC",
+    "null": "#FFFFFF",
+    "textClasses": {
+        "callout": {
+            "fontSize": 20,
+            "fontFace": "Calibri",
+            "color": "#222325"
+        },
+        "title": {
+            "fontSize": 12.5,
+            "fontFace": "Calibri",
+            "color": "#222325"
+        },
+        "header": {
+            "fontSize": 12.5,
+            "fontFace": "Calibri",
+            "color": "#E5E5E5"
+        },
+        "label": {
+            "fontSize": 8,
+            "fontFace": "Calibri",
+            "color": "#222325"
+        }
+    },
+    "firstLevelElements": "#FFFFFF",
+    "secondLevelElements": "#FFFFFF",
+    "thirdLevelElements": "#5A5A5A",
+    "fourthLevelElements": "#5A5A5A",
+    "background": "#FFFFFF",
+    "secondaryBackground": "#222325",
+    "foreground": "#222325",
+    "foregroundNeutralSecondary": "#222325",
+    "tableAccent": "#222325",
+    "visualStyles": {
+        "page": {
+            "*": {
+                "background": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#DAE9F8"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ]
+            }
+        },
+        "*": {
+            "*": {
+                "title": [
+                    {
+                        "fontColor": {
+                            "solid": {
+                                "color": "#222325"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#DAE9F8"
+                            }
+                        },
+                        "show": false,
+                        "text": "<< Placeholder Title >>"
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#DAE9F8"
+                            }
+                        },
+                        "transparency": 0
+                    }
+                ],
+                "dropShadow": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#222325"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "actionButton": {
+            "*": {
+                "general": [
+                    {
+                        "responsive": true,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "background": [
+                    {
+                        "show": true,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "transparency": 50
+                    }
+                ],
+                "border": [
+                    {
+                        "color": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "transparency": 70
+                    }
+                ],
+                "title": [
+                    {
+                        "show": true,
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "alignment": "center"
+                    }
+                ],
+                "outline": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "weight": 1
+                    },
+                    {
+                        "$id": "hover",
+                        "weight": 1
+                    },
+                    {
+                        "$id": "selected",
+                        "weight": 1
+                    },
+                    {
+                        "$id": "disabled",
+                        "weight": 1
+                    }
+                ],
+                "fill": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "transparency": 50,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#E5E5E5"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "disabled",
+                        "transparency": 0,
+                        "fillColor": {
+                            "solid": {
+                                "color": "#E5E5E5"
+                            }
+                        }
+                    }
+                ],
+                "icon": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "hover",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#E5E5E5"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "selected",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#E5E5E5"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "disabled",
+                        "lineColor": {
+                            "solid": {
+                                "color": "#0E2841"
+                            }
+                        }
+                    }
+                ],
+                "text": [
+                    {
+                        "show": true
+                    },
+                    {
+                        "$id": "default",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#222325"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "hover",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "selected",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    },
+                    {
+                        "$id": "disabled",
+                        "fontColor": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "horizontalAlignment": "center"
+                    }
+                ]
+            }
+        },
+        "clusteredBarChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 0,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pieChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "card": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "tableEx": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lineClusteredColumnComboChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "hundredPercentStackedBarChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "multiRowCard": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "gauge": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "barChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "lineStackedColumnComboChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stackedAreaChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "clusteredColumnChart": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "pivotTable": {
+            "*": {
+                "visualHeader": [
+                    {
+                        "transparency": 20,
+                        "showTooltipButton": true,
+                        "foreground": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 0,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "background": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "border": {
+                            "solid": {
+                                "color": {
+                                    "expr": {
+                                        "ThemeDataColor": {
+                                            "ColorId": 1,
+                                            "Percent": 0
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
