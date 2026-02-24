@@ -53,10 +53,10 @@ Some questions this dashboard sets out to answer:
 💡**Key Insights**
 Screenshots with short explanations of visuals.
 
-`Dashboard year range: 2010-2025`
+`Dashboard Snapshot Year_Range: 2010-2025`
 <img width="845" height="479" alt="image" src="https://github.com/user-attachments/assets/4caffe56-fc04-4f0b-8556-092399ad0ed0" />
 
-`Dashboard year range: 2023-2024`
+`Dashboard Snapshot Year_Range: 2023-2024`
 <img width="845" height="479" alt="image" src="https://github.com/user-attachments/assets/ad872f49-a74a-4bc1-bfbd-7974e2099128" />
 
 
