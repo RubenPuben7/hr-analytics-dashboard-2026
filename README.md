@@ -15,6 +15,7 @@ This dashboard previews simulated company data, encompassing:
 - attrition/separations
 
 Some questions this dashboard sets out to answer:
+
   **Workforce size/capacity:**
 - How many people do we have right now, and how is this changing over time? 
 - Where is our workforce growing or shrinking (by team, function, location)? 
